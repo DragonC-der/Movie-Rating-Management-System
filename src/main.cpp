@@ -131,7 +131,7 @@ class Movie_Rating_Management_System
             getline(cin,name);
             if(reg[name]!=0)
             {
-                cout<<"Movie already exists , Enter a new movie : ";
+                cout<<"Movie already exists , ";
                 continue;
             }
             newnode->movies.push_back(name);
